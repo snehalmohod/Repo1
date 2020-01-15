@@ -21,7 +21,7 @@ public class GridMavenDemo {
 	{
 		if(browsernm.equalsIgnoreCase("chrome"))
 		{
-			System.out.println("In chrome Browser");
+			System.out.println("In chrome Browser method");
 			DesiredCapabilities cap=new DesiredCapabilities();
 			cap.setBrowserName("chrome");
 			cap.setPlatform(Platform.WIN10);
@@ -38,7 +38,7 @@ public class GridMavenDemo {
 		}
 		else if(browsernm.equalsIgnoreCase("ie"))
 		{
-			System.out.println("In IE browser");
+			System.out.println("In IE browser method");
 			DesiredCapabilities cap=new DesiredCapabilities();
 			cap.setBrowserName("ie");
 			cap.setPlatform(Platform.WIN10);
@@ -51,7 +51,7 @@ public class GridMavenDemo {
 		}
 		else
 		{
-			System.out.println("In Firefox browser");
+			System.out.println("In Firefox browser method");
 			DesiredCapabilities cap=new DesiredCapabilities();
 			cap.setBrowserName("firefox");
 			cap.setPlatform(Platform.WIN10);
