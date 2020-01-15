@@ -23,7 +23,8 @@ public static void main(String[] args) throws MalformedURLException {
 	WebDriver driver=new RemoteWebDriver(new URL(hburl),cap);
 	driver.get("http://www.newtours.demoaut.com/mercurywelcome.php");
 	driver.manage().window().maximize();
-    driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("Snehalp1");
+    driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("Snehalp1")tem.out.println(");
+	
     driver.findElement(By.xpath("//input[@name='password']")).sendKeys("P@ssword1");
     driver.findElement(By.xpath("//input[@name='login']")).click();
 	
